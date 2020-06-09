@@ -1,0 +1,109 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "1dc858ac-fbd5-4f24-b3af-9e478df8db8a": {
+        "id": "1dc858ac-fbd5-4f24-b3af-9e478df8db8a",
+        "parent": null,
+        "name": "testINUviginiaa.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "testINUviginiaa.js",
+        "cursor": {
+          "lineNumber": 14,
+          "column": 1
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "testINUviginiaa"
+        },
+        "triggers": [
+          {
+            "resourceName": "httpApigusEast1testIndu",
+            "config": {
+              "defaultRoute": false,
+              "method": "GET",
+              "route": "/induRoute"
+            }
+          }
+        ]
+      }
+    },
+    "openFiles": [
+      "1dc858ac-fbd5-4f24-b3af-9e478df8db8a"
+    ],
+    "currentFileId": "1dc858ac-fbd5-4f24-b3af-9e478df8db8a",
+    "resources": {
+      "httpApigusEast1testIndu": {
+        "name": "httpApigusEast1testIndu",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-1",
+          "apiType": 2,
+          "mode": 0,
+          "apiName": "testIndu",
+          "stageName": "stge"
+        }
+      },
+      "s3induniltrigger": {
+        "name": "s3induniltrigger",
+        "type": "S3",
+        "config": {
+          "mode": 1,
+          "bucket": {
+            "region": "us-east-1",
+            "name": "indunil.trigger"
+          }
+        }
+      }
+    },
+    "customTemplate": {
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {
+        "aws-sdk": {
+          "name": "aws-sdk",
+          "language": "nodejs",
+          "version": "2.644.0",
+          "dev": true,
+          "notRemovable": false
+        }
+      }
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "testINUviginiaa",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1591696383203
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "testinuviginiaa",
+      "url": "https://github.com/Indunil1992/testinuviginiaa"
+    }
+  }
+}
